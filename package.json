@@ -1,0 +1,25 @@
+{
+  "name": "npm_project",
+  "version": "1.0.0",
+  "description": "Menu con Jquery",
+  "main": "index.html",
+  "scripts": {
+    "test": "script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEstebanR/menuConJquery.git"
+  },
+  "keywords": [
+    "makeItReal"
+  ],
+  "author": "Karolin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEstebanR/menuConJquery/issues"
+  },
+  "homepage": "https://github.com/LEstebanR/menuConJquery#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
