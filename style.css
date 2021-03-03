@@ -17,12 +17,18 @@
   text-decoration: none;
   z-index: 3;
 }
+ .nav .mouse {
+    color: #EA178C;
+    bottom: 0px;
+    height: 100%;
+  }
+
 .nav .active {
   color: #EA178C;
   bottom: 0px;
   height: 100%;
 }
-.nav .active:after {
+.nav .active::after {
   content: "";
   position: absolute;
   bottom: 0;

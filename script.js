@@ -1,5 +1,12 @@
-$(document).ready(function(){
-  $('.nav').mouseover(function(){
-    $('a').addClass('active: after');
-      });
-   });
+$("a").on("click", function(){
+  $("a").removeClass("active");
+  $(this).addClass("active");
+
+});
+
+$("a").on("mouseleave",function() {
+  $("a").removeClass("mouse");
+ });
+ $("a").on("mouseenter",function() {
+  $(this).addClass("mouse");
+});
